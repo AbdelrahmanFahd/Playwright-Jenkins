@@ -1,0 +1,21 @@
+{
+  "name": "second-time",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "PostTest": "npx playwright show-report",
+    "serve": "npx allure open",
+    "chromiumTest": "npx playwright test tests/example.spec.js --project=chromium",
+    "exampleTest": "npx playwright test tests/example2.spec.js --project=chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.8",
+    "allure-playwright": "^3.2.0"
+  }
+}

@@ -1,0 +1,14 @@
+URL {
+  href: 'https://api.example.com/search?query=Playwright',
+  origin: 'https://api.example.com',
+  protocol: 'https:',
+  username: '',
+  password: '',
+  host: 'api.example.com',
+  hostname: 'api.example.com',
+  port: '',
+  pathname: '/search',
+  search: '?query=Playwright',
+  searchParams: URLSearchParams { 'query' => 'Playwright' },
+  hash: ''
+}

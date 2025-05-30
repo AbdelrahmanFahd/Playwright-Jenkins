@@ -1,0 +1,1 @@
+https://api.example2.com/search?query=Playwright
